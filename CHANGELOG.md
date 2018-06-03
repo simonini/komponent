@@ -2,6 +2,10 @@
 
 ## Upcoming release
 
+**Enhancements:**
+
+- Implement a styleguide view
+
 ## v2.1.0 (2018-05-31)
 
 **Enhancements:**
