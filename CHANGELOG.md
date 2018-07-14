@@ -3,21 +3,31 @@
 ## Upcoming release
 
 **Enhancements:**
-
 - Implement a styleguide view
 - New generator: `rails g komponent:examples` to generate
   an example file for each existing component
 
+**Breaking changes:**
+- Dropped support for Rails 4.2
+
+## v2.2.0 (2018-07-03)
+
+**Enhancements:**
+- Component generator: use `component_name` instead of `module_name` in templates,
+  so when we create a `button` component, by default it contains `button` instead
+  of `button_component`
+
+**Bug fixes:**
+- Component generator: fix error when the single-quotes are used in `import`s
+
 ## v2.1.0 (2018-05-31)
 
 **Enhancements:**
-
 - Block given to component now pass return values
 
 ## v2.0.0 (2018-04-22)
 
 **Enhancements:**
-
 - Use lazy lookup for translations in all generator templates
 
 ## v2.0.0.pre.1 (2018-04-12)

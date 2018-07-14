@@ -47,7 +47,7 @@ This gem has been inspired by our Rails development practices at [Ouvrages](http
 ## Compatibility
 
 - Ruby 2.2+
-- Rails 4.2+
+- Rails 5.0+
 - Webpacker 3.0.0+
 
 ## Getting started
@@ -354,7 +354,7 @@ end
 
 #### Change default stylesheet engine
 
-You can configure the stylesheet engine used for generate stylesheet file, values allowed are ':css', ':scss', ':sass'.
+You can configure the stylesheet engine used for generate stylesheet file, allowed values are `:css`, `:scss`, `:sass`.
 
 ```rb
 Rails.application.config.komponent.stylesheet_engine = :css # default value is :css
